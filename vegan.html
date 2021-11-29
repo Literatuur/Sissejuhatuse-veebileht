@@ -1,12 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<script src="random.jsx"></script>
+<script>
+    var links = new Array();
+    links[0] = "https://www.kausspoke.ee/restoran/kauss-kampus-tartu";
+    links[1] = "https://vegmachine.ee/"
+    links[2] = "https://trikstertihane.ee/"
+    </script>
+<meta charset="UTF-8">
 <link rel="stylesheet" href="kujundus.css">
 <link href="http://fonts.cdnfonts.com/css/im-fell-dw-pica" rel="stylesheet">
+<title>Vegan</title>
 </head>
-<body>
-
-<h1></h1>
 <img src="logo.jpg" alt="Logo" class="center">
 <div class="keskele">
     <div class="dropdown">
@@ -21,30 +27,36 @@
 </div>
 <ul class="hs full no-scrollbar">
     <li class="item"> <div class="wrapper">
-        <div class="card"><img src='KAUSS.jpeg'>
+        <div class="card"><img src='KAUSS.jpeg' alt="koht">
         <div class="info">
         <h1>KAUSS KAMPUS</h1>
         <p>Kauss Poké pole tavaline Poke Bowl! Kauss Poke's saavad kõhu head ja paremat täis nii taimetoidu armastajad kui ka lihasõbrad!</p>
        <button onclick="window.location.href='https://www.kausspoke.ee/restoran/kauss-kampus-tartu'" >LOE LÄHEMALT!</button>
         </div>
+        </div>
+    </div>   
+    </li>
     <li class="item"> <div class="wrapper">
-        <div class="card"><img src="VEG.JPG">
+        <div class="card"><img src="VEG.JPG" alt="koht">
         <div class="info">
         <h1>VEG MACHINE</h1>
         <p>Veg Machine ehk masin mis teeb ja pakub vaid rõõmsameelset vegan toitu. Olulisel kohal on taaskasutus ja roheline mõtteviis!</p>
        <button onclick="window.location.href='https://vegmachine.ee/'" >LOE LÄHEMALT!</button>
         </div>
         </div>
+    </div>   
     </li>
+    
     <li class="item"> <div class="wrapper">
-        <div class="card"><img src="TRIKSTER.JPG">
+        <div class="card"><img src="TRIKSTER.JPG" alt="koht">
         <div class="info">
         <h1>TRIKSTER TIHANE</h1>
         <p>Trikster Tihane pakub oma külalistele värskelt valmistatud roogasid. Valikus on suppe, salateid, kana, kala ja veiseliha. Menüüs on saadaval ka maitsekaid roogasid taimetoidu armastajatele</p>
        <button onclick="window.location.href='https://trikstertihane.ee/'" >LOE LÄHEMALT!</button>
         </div>
         </div>
+    </div>
     </li>
 </ul>
-</body>
+<a href="#" onclick="openLink();">Suvalise toidukoha saamiseks vajuta SIIA!</a>
 </html>
