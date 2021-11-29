@@ -130,35 +130,32 @@
         </div>
     </li>
 </ul>
-<head>
-    <script type="text/javascript">
 
-        var links = new Array();
-        links[0] = "https://mysushi.ee/";
-        links[1] = "https://davinci.ee/restoran/";
-        links[2] = "https://www.kausspoke.ee/restoran/kauss-kampus-tartu";
-        links[3] = "https://tartu.viruburger.ee/";
-        links[4] = "https://www.tokumaru.ee/"
-        links[5] = "https://sevensons.ee/kohad/kolm-tilli"
-        links[6] = "https://vegmachine.ee/"
-        links[7] = "https://www.vlndburger.ee/"
-        links[8] = "http://sushimeistrid.ee/"
-        links[9] = "https://vapiano.ee/"
-        links[10] = "https://trikstertihane.ee/"
-        links[11] = "https://uulits.ee/"
-        function openLink() {
-            // Suvalise lingi leidmine:
-             var i = Math.floor(Math.random() * links.length);
-            // Viin valitud lingile:
-            parent.location = links[i];
-            return false;
-        }
-        
-        </script>
-</head>
-</body>
-<body>
 <a href="#" onclick="openLink();">Suvalise toidukoha saamiseks vajuta SIIA!</a>
-</body>
+<script type="text/javascript">
 
+    var links = new Array();
+    links[0] = "https://mysushi.ee/";
+    links[1] = "https://davinci.ee/restoran/";
+    links[2] = "https://www.kausspoke.ee/restoran/kauss-kampus-tartu";
+    links[3] = "https://tartu.viruburger.ee/";
+    links[4] = "https://www.tokumaru.ee/"
+    links[5] = "https://sevensons.ee/kohad/kolm-tilli"
+    links[6] = "https://vegmachine.ee/"
+    links[7] = "https://www.vlndburger.ee/"
+    links[8] = "http://sushimeistrid.ee/"
+    links[9] = "https://vapiano.ee/"
+    links[10] = "https://trikstertihane.ee/"
+    links[11] = "https://uulits.ee/"
+
+    function openLink() {
+    // Suvalise lingi leidmine:
+        var i = Math.floor(Math.random() * links.length);
+        // Viin valitud lingile:
+        parent.location = links[i];
+        return false;
+    }
+        
+</script>
+</body>
 </html>
